@@ -1,6 +1,6 @@
 # InjectorCore
 
-![logo](https://github.com/user-attachments/assets/824f5406-05cd-4204-8eb0-9cf086cb965a)
+<img src="https://github.com/user-attachments/assets/824f5406-05cd-4204-8eb0-9cf086cb965a" alt="logo" width="200" />
 
 InjectorCore is a .NET library designed to facilitate DLL injection into running processes, supporting both 64-bit and 32-bit processes.
 
@@ -46,3 +46,14 @@ class Program
         }
     }
 }
+```
+Replace "targetProcessName" with the name of the process you want to inject the DLL into and "path_to_your_dll.dll" with the path to your DLL file.
+
+## Contributing
+Contributions are welcome! Please read the contributing guidelines first.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+If you have any questions or feedback, please open an issue or contact us at [cuciuloll@gmail.com].
