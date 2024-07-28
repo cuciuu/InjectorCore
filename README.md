@@ -1,6 +1,6 @@
 # InjectorCore
 
-InjectorCore is a .NET library designed to facilitate DLL injection into running processes.
+InjectorCore is a .NET library designed to facilitate (ANY DLL) injection into running processes.
 
 ## Features
 
@@ -12,9 +12,9 @@ InjectorCore is a .NET library designed to facilitate DLL injection into running
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/InjectorCore.git
+    git clone https://github.com/cuciuu/InjectorCore.git
     ```
-2. Open the project in Visual Studio 2017.
+2. Open the project in Visual Studio.
 3. Build the project to generate the library.
 
 ## Usage
