@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 
-namespace CouInjector
+namespace InjectCore
 {
     public static class Injection
     {
