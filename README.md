@@ -1,6 +1,4 @@
 
-# InjectCore
-=======
 # InjectorCore
 
 InjectorCore is a .NET library designed to facilitate (ANY DLL) injection into running processes.
