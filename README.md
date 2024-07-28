@@ -1,6 +1,8 @@
 # InjectorCore
 
-<img src="https://github.com/user-attachments/assets/824f5406-05cd-4204-8eb0-9cf086cb965a" alt="logo" width="200" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/824f5406-05cd-4204-8eb0-9cf086cb965a" alt="logo" width="200" />
+</p>
 
 InjectorCore is a .NET library designed to facilitate DLL injection into running processes, supporting both 64-bit and 32-bit processes.
 
