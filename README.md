@@ -57,5 +57,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-If you have any questions or feedback, please open an issue or contact us at [cuciuloll@gmail.com].
->>>>>>> 45b860a6d04562bf99d3f813be662bb026ba3002
+If you have any questions or feedback, please open an issue or contact us at [cuciuloll@gmail.com]
