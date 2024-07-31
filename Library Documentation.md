@@ -1,4 +1,4 @@
-# InjectorCore API Documentation
+# InjectorCore library Documentation
 
 ## Injection Class
 
